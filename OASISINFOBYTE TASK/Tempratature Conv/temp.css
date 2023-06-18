@@ -1,0 +1,43 @@
+body{
+  background: linear-gradient(90deg,rgba(2,0,6,1) 0%,rgba(9,9,121,1) 35%,rgba(0,212,255,1) 100% );
+}
+#convert {
+    background-color: #bba768;
+  }
+  #convert:hover {
+    background-color: #bcc768;
+  }
+  h1 {
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+  }
+  .tab{
+    text-align: center;
+  }
+  input {
+   
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: #f4a55a;
+    font-family: cursive, sans-serif;
+
+  }
+  ::-webkit-input-placeholder {
+     color: #ccc;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+     color: #ccc;  
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: #ccc;  
+  }
+  :-ms-input-placeholder {  
+     color: #ccc;  
+  }
+  button {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #545454;
+  }
